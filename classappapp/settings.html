@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Edit Profile</title>
+    <link rel="stylesheet" href="settings556.css">
+</head>
+<body>
+
+    <!-- Settings Page Header -->
+    <h2>Edit Your Profile</h2>
+
+    <!-- Profile Form -->
+    <div class="settings-container">
+        <form id="profileForm">
+            <!-- Profile Picture Section -->
+            <div class="profile-picture-container">
+                <img id="profilePicturePreview" src="default-avatar.png" alt="Profile Picture">
+                <input type="file" id="profilePictureInput" accept="image/*" style="display: none;">
+                <button type="button" id="changePictureButton">Change Picture</button>
+            </div>
+
+            <!-- User Information Fields -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+
+            <!-- Save Button -->
+            <button type="button" id="saveProfileButton">Save Changes</button>
+        </form>
+    </div>
+
+
+</body>
+<script src="settings123.js"></script>
+</html>
